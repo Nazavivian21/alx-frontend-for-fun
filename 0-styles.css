@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    border: 1px solid #ddd;
+}
+
+li span {
+    display: block;
+    margin: 0 auto;
+    width: 80px; /* Icon size */
+    height: 80px; /* Icon size */
+    background-image: url('https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/2/d416199ca6ecdbd0f8a3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20241117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241117T214322Z&X-Amz-Expires=345600&X-Amz-SignedHeaders=host&X-Amz-Signature=da8169480e70d6d596ac82daaf3aa0a76015c05f7907386e5fc9636ae5e2a197');
+    background-size: 240px 80px; 
+    background-repeat: no-repeat;
+}
+
+.i-html {
+    background-position: 0 0; 
+}
+
+.i-css {
+    background-position: -80px 0; 
+}
+
+.i-js {
+    background-position: -160px 0; 
+}
+
+li p {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
